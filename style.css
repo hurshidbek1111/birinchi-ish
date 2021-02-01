@@ -1,0 +1,115 @@
+body{
+    
+    margin:0 50px 0 50px ;
+}
+.hederimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1260px;
+    height: 400px;
+    
+}
+
+.menyu{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+a{
+    padding: 0 40px 0 40px; 
+    text-decoration: none;
+    color: seagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    margin-left: 500px;
+    text-decoration: underline;
+    text-shadow: 4px 3px 4px rgb(7, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+hr{
+    box-shadow: 2px 2px 2px brown;
+}
+.hona{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.box1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: none;
+  
+}
+.box1:hover{
+     box-shadow: 1px 2px 7px 3px black;
+}
+.box2:hover{
+    box-shadow: 1px 2px 7px 3px black;
+}
+.box2{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   
+}
+.box3{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   
+}
+.box3:hover{
+    box-shadow: 1px 2px 7px 3px black;
+}
+.box4:hover{
+    box-shadow: 1px 2px 7px 3px black;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+.btn{
+    color: rgb(102, 83, 5);
+    border-radius: 20px;
+}
+.btn:hover{
+    background: rgb(255, 86, 80);
+    color: cornsilk;
+}
+footer{
+    margin-top: 30px;
+    height: 60px;
+    background: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
